@@ -6,7 +6,11 @@ const loop0UpTo10 = () => {
 loop0UpTo10();
 
 const loop5to10 = () => {
+  for(let m = 5; m <= 10; m++){
+    console.log(m);
+  }
 };
+loop5to10();
 
 // you do NOT need an if check
 const loopEvenNumbersUpTo10 = () => {
