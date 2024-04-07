@@ -21,7 +21,11 @@ const loopEvenNumbersUpTo10 = () => {
 loopEvenNumbersUpTo10();
 
 const countdown5to0 = () => {
+  for(let o = 5; o >= 0; o--){
+    console.log(o);
+  }
 };
+countdown5to0();
 
 const loopUpToNum = () => {
 };
