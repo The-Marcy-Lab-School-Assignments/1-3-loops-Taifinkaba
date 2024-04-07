@@ -27,8 +27,12 @@ const countdown5to0 = () => {
 };
 countdown5to0();
 
-const loopUpToNum = () => {
+const loopUpToNum = (num) => {
+  for(let p = 0 ; p < num; p++){
+    console.log(p);
+  }
 };
+// loopUpToNum(30);
 
 const fizzbuzz = () => {
 };
