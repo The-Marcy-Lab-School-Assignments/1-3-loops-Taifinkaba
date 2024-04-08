@@ -14,3 +14,17 @@
 //   brokenNested,
 //   brokenLoop,
 // } = require('./debug');
+
+
+
+
+
+// short answer for question 3 
+// const bailOut = () => {
+//     for (let i = 0; i < 5; i++) {
+//       if (i > 3) return;
+//       console.log('Inside the loop', i);
+//     }
+//     console.log('Outside the loop');
+//   };
+//   bailOut();
