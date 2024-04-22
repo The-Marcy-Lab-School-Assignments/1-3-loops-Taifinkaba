@@ -4,14 +4,12 @@ const loop0UpTo10 = () => {
     console.log(i);
   }
 };
-// loop0UpTo10();
 
 const loop5to10 = () => {
   for(let m = 5; m <= 10; m++){
     console.log(m);
   }
 };
-// loop5to10();
 
 // you do NOT need an if check
 const loopEvenNumbersUpTo10 = () => {
@@ -19,21 +17,18 @@ const loopEvenNumbersUpTo10 = () => {
     console.log(n);
   }
 };
-// loopEvenNumbersUpTo10();
 
 const countdown5to0 = () => {
   for(let o = 5; o >= 0; o--){
     console.log(o);
   }
 };
-// countdown5to0();
 
 const loopUpToNum = (num) => {
   for(let p = 0 ; p < num; p++){
     console.log(p);
   }
 };
-// loopUpToNum(30);
 
 const fizzbuzz = () => {
   for(let q = 1; q <= 100; q++){
@@ -48,7 +43,6 @@ const fizzbuzz = () => {
     }
   }
 };
-// fizzbuzz();
 
 module.exports = {
   loop0UpTo10,
